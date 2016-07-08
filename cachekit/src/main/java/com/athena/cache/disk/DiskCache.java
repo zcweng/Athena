@@ -42,7 +42,6 @@ public final class DiskCache extends Cache {
      * @param <T>
      * @return
      */
-
     @Override
     protected <T> T doLoad(String key) throws CacheException {
         //读取缓存
